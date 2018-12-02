@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/eur_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/eur_to_usd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_eur_usd"
+        android:text="EUR to USD" />
+    <EditText
+        android:id="@+id/usd_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/usd_to_eur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_usd_eur"
+        android:text="USD to EUR" />
+
+    <Button
+        android:id="@+id/firstActivityAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_clean"
+        android:text="Clear" />
+    <Button
+        android:id="@+id/secondActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Calculator"
+        android:text="Calculator"/>
+
+</LinearLayout>
